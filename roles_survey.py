@@ -6,14 +6,11 @@ from astropy.table import Table
 
 
 def send_mails(filename='astropy-core-maintainers.csv',
-               n_mails=2, dry_run=True, confirm=True):
-    if dry_run:
-        me = 'aldcroft'
-    else:
-        me = os.environ['USER'] + '@head.cfa.harvard.edu'
+               dry_run=True, confirm=True):
+    me = os.environ['USER'] + '@head.cfa.harvard.edu'
 
     maints = Table.read(filename)
-    for maint in maints[:n_mails]:
+    for maint in maints:
         recipient = maint['Email address']
         name = maint['Nickname']
         send_mail(recipient, name, dry_run, me, confirm)
@@ -22,7 +19,6 @@ def send_mails(filename='astropy-core-maintainers.csv',
 def send_mail(recipient, name, dry_run, me, confirm):
     subject = f'Astropy role questionnaire for maintainers'
 
-    me = 'aldcroft'
     first_name = name.split()[0]
     print(first_name, recipient)
     text = f"""\
@@ -43,15 +39,18 @@ to these questions, if possible within 2 weeks. Note that a lack of
 response for an extended period of time may lead to your role being
 declared vacant.
 
+If you have any questions please email coordinators@astropy.org.
+
 Thank you,
 The Astropy coordination committee
 
 """
+    cc = 'taldcroft@cfa.harvard.edu'
     msg = MIMEText(text)
     msg['Subject'] = subject
     msg['From'] = me
     msg['To'] = recipient
-    msg['Cc'] = 'taldcroft@cfa.harvard.edu'
+    msg['Cc'] = cc
 
     print(msg.as_string())
 
@@ -64,7 +63,7 @@ The Astropy coordination committee
     if not dry_run:
         try:
             s = smtplib.SMTP('localhost')
-            s.sendmail(me, [recipient], msg.as_string())
+            s.sendmail(me, [recipient] + [cc], msg.as_string())
             s.quit()
             print(f'Sent mail to {recipient}')
         except Exception as err:

@@ -1,4 +1,8 @@
 Email address,Nickname,Group status,Email status,Email preference,Posting permissions,Join year,Join month,Join day,Join hour,Join minute,Join second,Time zone
+taldcroft@gmail.com,"Tom Aldcroft",manager,,"email","allowed",2017,1,25,10,54,25,Western European Summer Time
+thomas.robitaille@gmail.com,"Tom Robitaille",owner,,"email","allowed",2017,1,24,20,7,39,Western European Summer Time
+kellecruz@gmail.com,"Kelle Cruz",manager,,"email","allowed",2017,4,17,16,22,0,Western European Summer Time
+etollerud@gmail.com,"Erik Tollerud",owner,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
 adrianmpw@gmail.com,"Adrian Price-Whelan",member,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
 alexanderconley@gmail.com,"Alex Conley",member,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
 axeldonath@googlemail.com,"Axel Donath",member,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
@@ -6,10 +10,8 @@ bsipocz@gmail.com,"Brigitta Sipocz",member,,"email","allowed",2017,1,24,20,45,54
 crawfordsm@gmail.com,"Steve Crawford",member,,"email","allowed",2017,1,24,20,44,59,Western European Summer Time
 dave.shupe@gmail.com,"David Shupe",member,,"email","allowed",2017,1,25,9,16,30,Western European Summer Time
 deil.christoph@googlemail.com,"Christoph Deil",member,,"email","allowed",2017,10,3,7,2,38,Western European Summer Time
-etollerud@gmail.com,"Erik Tollerud",owner,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
 grant.tremblay@cfa.harvard.edu,"Grant Tremblay",member,,"email","allowed",2018,6,22,17,33,35,Western European Summer Time
 keflavich@gmail.com,"Adam Ginsburg",member,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
-kellecruz@gmail.com,"Kelle Cruz",manager,,"email","allowed",2017,4,17,16,22,0,Western European Summer Time
 larry.bradley@gmail.com,"Larry Bradley",member,,"email","allowed",2017,1,24,21,40,25,Western European Summer Time
 lia.astro@gmail.com,"Lia Corrales",member,,"email","allowed",2017,9,29,5,12,20,Western European Summer Time
 matteo@matteobachetti.it,"Matteo Machetti",member,,"email","allowed",2017,1,24,20,44,59,Western European Summer Time
@@ -21,13 +23,11 @@ miguel.deval@gmail.com,"Miguel de Val-Borro",member,,"email","allowed",2017,10,2
 moritz.guenther@gmx.de,"Moritz Guenther",member,,"email","allowed",2017,1,24,20,44,59,Western European Summer Time
 nadia.dencheva@gmail.com,"Nadia Dencheva",member,,"email","allowed",2017,1,24,20,44,59,Western European Summer Time
 olebole@debian.org,"Ole Streicher",member,,"email","allowed",2017,10,3,8,37,50,Western European Summer Time
-p3y1i4n@gmail.com,"Pey Lian Lim",member,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
+p3y1i4n@gmail.com,"Pey-Lian Lim",member,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
 perry@stsci.edu,"Perry Greenfield",member,,"email","allowed",2018,6,22,22,19,44,Western European Summer Time
 s.littlefair@shef.ac.uk,"Stuart Littlefair",member,,"email","allowed",2017,1,24,20,42,51,Western European Summer Time
 sergiopr@fis.ucm.es,"Sergio Pascual",member,,"email","allowed",2017,10,3,9,53,27,Western European Summer Time
 simon.conseil@gmail.com,"Simon Conseil",member,,"email","allowed",2017,10,3,9,29,33,Western European Summer Time
 stuart@cadair.com,"Stuart Mumford",member,,"email","allowed",2017,10,3,10,43,39,Western European Summer Time
-taldcroft@gmail.com,"Tom Aldcroft",manager,,"email","allowed",2017,1,25,10,54,25,Western European Summer Time
-thomas.robitaille@gmail.com,"Tom Robitaille",owner,,"email","allowed",2017,1,24,20,7,39,Western European Summer Time
 thomas.boch@astro.unistra.fr,"Thomas Boch",owner,,"email","allowed",2017,1,24,20,7,39,Western European Summer Time
 tdonaldson@stsci.edu,"Tom Donaldson",owner,,"email","allowed",2017,1,24,20,7,39,Western European Summer Time
